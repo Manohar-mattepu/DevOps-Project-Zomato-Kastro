@@ -8,6 +8,6 @@ spec:
   type: NodePort
   ports:
   - port: 3000
-    targetPort: 32000  # Replace with the port your app runs on
+    targetPort: 3000  # Replace with the port your app runs on
   selector:
     app: zomato
